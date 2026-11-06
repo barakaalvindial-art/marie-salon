@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book an Appointment | Marie Beauty Studio</title>
+    <link rel="stylesheet" href="appoin.css">
+</head>
+
+<body>
+
+    <div class="booking-container">
+
+        <div class="booking-header">
+            <h1>Marie Beauty Studio</h1>
+            <h2>Book an Appointment</h2>
+            <p>Schedule your beauty experience with us.</p>
+        </div>
+
+        <form id="appointmentForm">
+
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name"
+                       placeholder="Enter your full name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone"
+                       placeholder="Enter your phone number" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email Address (Optional)</label>
+                <input type="email" id="email" name="email"
+                       placeholder="Enter your email address">
+            </div>
+
+            <div class="form-group">
+                <label for="service">Select Service</label>
+                <select id="service" name="service" required>
+                    <option value="">Choose a service</option>
+                    <option value="Hair Styling">Hair Styling</option>
+                    <option value="Hair Coloring">Hair Coloring</option>
+                    <option value="Manicure">Manicure</option>
+                    <option value="Pedicure">Pedicure</option>
+                    <option value="Facial Treatment">Facial Treatment</option>
+                    <option value="Makeup">Makeup</option>
+                    <option value="Nail Art">Nail Art</option>
+                    <option value="DREADLOCS">Dreadlocs services</option>
+                    <option value="Other">Other</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="date">Preferred Date</label>
+                <input type="date" id="date" name="date" required>
+            </div>
+
+           <div class="form-group">
+    <label>Preferred Appointment Time</label>
+
+    <div class="time-selection">
+        <select id="hour" required>
+            <option value="">Hour</option>
+            <option>08</option>
+            <option>09</option>
+            <option>10</option>
+            <option>11</option>
+            <option>12</option>
+            <option>01</option>
+            <option>02</option>
+            <option>03</option>
+            <option>04</option>
+            <option>05</option>
+            <option>06</option>
+            <option>07</option>
+        </select>
+
+        <select id="minute" required>
+            <option value="">Minute</option>
+            <option value="00">00</option>
+            <option value="15">15</option>
+            <option value="30">30</option>
+            <option value="45">45</option>
+        </select>
+
+        <select id="ampm" required>
+            <option value="">AM/PM</option>
+            <option value="AM">AM</option>
+            <option value="PM">PM</option>
+        </select>
+    </div>
+</div>
+
+            <div class="form-group">
+                <label for="message">Additional Information</label>
+                <textarea id="message" name="message"
+                          placeholder="Any special requests?"></textarea>
+            </div>
+
+            <button type="submit">Submit Appointment Request</button>
+
+        </form>
+
+        <p class="note">
+            Your appointment is a request and will be confirmed by our team.
+        </p>
+
+        <a href="index.html" class="back-link">← Back to Home</a>
+
+    </div>
+
+    <script src="appointment.js"></script>
+
+</body>
+</html>
