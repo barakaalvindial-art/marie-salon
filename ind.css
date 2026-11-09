@@ -204,6 +204,7 @@ body{
     position: relative;
     padding: 5px 0;
     transition: all 0.3s ease;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
  }
  nav a:after{
     content: '';

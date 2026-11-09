@@ -344,8 +344,7 @@ body{
     top: 30px;
     overflow: hidden;
     border-radius: 15px;
-    box-shadow: 0 10px 30px 0 #fdbf2d;
-    border: 2px solid #d4af37;
+   
 }
 
 .image-card img {
